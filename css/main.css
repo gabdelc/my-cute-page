@@ -1,1 +1,22 @@
-/* Inserta tu CSS aqui */
+*{
+    outline: 1px solid red;
+}
+
+.list-nav li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 0 5%;
+     }
+.list-nav a{
+    color: black;
+    }
+/* fin de header */
+
+.hero{
+    background: url(../images/port.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: #f3f3f8;
+}
