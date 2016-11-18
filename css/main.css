@@ -1,6 +1,7 @@
 header{
     background: rgba(62, 26, 32, 0.89);
 }
+
 .list-nav li{
     list-style: none;
     text-decoration: none;
@@ -31,6 +32,7 @@ h1{
     background: rgba(118, 14, 14, 0.78);
     color: #ffffff;
     text-align: center;
+    padding-bottom: 2%;
 }
 
 h3{
@@ -49,9 +51,10 @@ h3{
 /*finde about*/
 
 .favorito{
-    background: rgba(126, 11, 11, 0.67);
+    background: rgba(240, 220, 220, 0.67);
     text-align: center;
-    color: #ffffff;
+    color: #902a2a;
+    padding-bottom: 2%;
 }
 
 .favorito img{
