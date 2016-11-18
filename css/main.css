@@ -1,22 +1,71 @@
 *{
     outline: 1px solid red;
+    margin: 0 auto;
+    padding: 0;
 }
-
+header{
+    background: rgba(62, 26, 32, 0.89);
+}
 .list-nav li{
     list-style: none;
     text-decoration: none;
     display: inline-block;
     text-align: center;
     padding: 0 5%;
+    margin-top: 3%;
      }
 .list-nav a{
-    color: black;
+    color: #ffffff;
     }
 /* fin de header */
 
 .hero{
-    background: url(../images/port.jpg) no-repeat;
+    background: url(../images/14925652_1390705880954514_777862685800696706_n.jpg) no-repeat;
     background-size: cover;
     height: 600px;
     color: #f3f3f8;
+    text-align: center;
+    }
+
+h1{
+    margin-top: 15%;
+}
+/* fin hero*/
+
+.about{
+    background: rgba(118, 14, 14, 0.78);
+    color: #ffffff;
+}
+
+.about img{
+    border-radius: 30%;
+    width: 100px,
+   }
+
+.about p, .about h3{
+    text-align: center;
+    }
+
+.about p{
+    font-size: 15px;
+}
+/*finde hero*/
+
+.favorito{
+    background: rgba(126, 11, 11, 0.67);
+    text-align: center;
+    color: #ffffff;
+}
+
+.favorito img{
+    border-radius: 100%;
+    width: 250px;
+}
+
+/* fin favorito*/
+
+footer{
+    background: rgb(92, 11, 11);
+    color: #ffffff;
+    text-align: center;
 }
